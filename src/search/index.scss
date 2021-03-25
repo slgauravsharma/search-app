@@ -1,0 +1,61 @@
+.search-container {
+  margin: 10% 20% 0% 20%;
+  text-align: center;
+
+  &__search-heading {
+    margin: 10px 0px 10px 0;
+    text-align: center;
+  }
+
+  &__match-text {
+    color: blue;
+  }
+
+  &__async-select {
+    margin-bottom: 10px;
+    .css-1rhbuit-multiValue .highlight-text {
+      color: inherit !important;
+    }
+  }
+
+  .highlight-text {
+    color: blue;
+    background: transparent;
+  }
+  .css-6q0nyr-Svg {
+    display: contents;
+  }
+
+  .css-1rhbuit-multiValue {
+    background: transparent;
+    margin: 0;
+  }
+
+  .css-xb97g8 {
+    display: none; // remove extra space
+  }
+
+  .css-12jo7m5 {
+    font-size: 18px; // text-size
+  }
+  .css-b8ldur-Input,
+  .css-b8ldur-Input:focus {
+    margin-top: 2px;
+    font-weight: 400;
+  }
+
+  .css-1n7v3ny-option,
+  .css-yt9ioa-option {
+    text-align: initial;
+  }
+
+  .css-1hb7zxy-IndicatorsContainer {
+    display: block;
+  }
+
+  .error {
+    .css-gg45go-NoOptionsMessage {
+      color: red;
+    }
+  }
+}
